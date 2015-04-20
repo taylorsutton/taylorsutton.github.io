@@ -1,9 +1,23 @@
 
-		body { 
-			background: #f0f;
+.container {
+	margin: 0 auto;
+	width: 50%;
+}
 
-		}
+h1, h2 {
+	font-family: 'Quattrocento', serif; 
+	text-transform: uppercase;
+}
 
-		img {
-					width: 320px;
-				}
+p, li {
+	font-family: 'Quattrocento', serif;
+}
+
+.dropcap {
+	font-size: 4em;
+	color: white;
+	background: teal;
+	padding: .5em;
+	margin: .25em; 
+	float:	left;
+}
