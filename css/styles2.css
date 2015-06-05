@@ -1,0 +1,104 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 58px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 38px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.color-1 {
+	background-color: #fac8bf;
+}
+
+.color-2 {
+	background-color: #466675;
+}
+
+.color-3 {
+	background-color: #6a8d9d;
+}
+
+.pattern-1 {
+	background: 
+linear-gradient(63deg, #999 23%, transparent 23%) 7px 0, 
+linear-gradient(63deg, transparent 74%, #999 78%), 
+linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%), 
+#444;
+background-size: 16px 48px;
+}
+.pattern-2 {
+	background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
+.pattern-3 {
+	background: 
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+background-color: slategray;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+
+.imagery-1 {
+	background-image: url("http://coopeer.com/wp-content/uploads/ocean-at-night-desktop-background-wallpaper-8mr2s.jpg");
+}
+
+.imagery-2 {
+	background-image: url("https://teoteodora1048.files.wordpress.com/2014/01/great-mountains-mountains-and-waterfalls-9842020-1920-1440.jpg");
+}
+
+.imagery-3 {
+	background-image: url("http://feelgrafix.com/data_images/out/5/784579-dark-forest.jpgimg/forest.jpg");
