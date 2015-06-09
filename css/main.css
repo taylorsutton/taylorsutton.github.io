@@ -44,7 +44,7 @@ header {
 
 #logo {
 	text-align: center;
-	margin: 0;
+	margin-top: 15px;
 }
 
 h1 {
@@ -214,32 +214,71 @@ h3 {
 	color:white;
 }
 
-nav {
 
-	background: #383838;
+
+
+
+
+
+/************************
+Interactive
+*************************/
+nav a:hover {
+	text-transform: uppercase;
+ -webkit-animation: callout .25s both;
+  animation: callout .25s both;
 }
 
 
-a {
-	color: #888888;
-}
-
-
-
-
-/* Nav background on mobile */
-
-/* nav link */
-nav a, nav a:visited {
+nav a {
 	color: black;
+	
+ 	 text-decoration: none;
 }
 
 /* selected nav link */
 nav a.selected {
 
 	color: #329832;
+
+}
+
+
 }
 
 
 
+/* Keyframe */
+
+@-webkit-keyframes callout {
+  0% { 
+    font-size: 1em;
+  }
+  100% { 
+    font-size: 1.2em;
+  }
+  
+ 
+}
+
+@keyframes callout {
+  0% { 
+    font-size: 1em;
+  }
+  100% { 
+    font-size: 1.25em;
+  }
+  
+ 
+}
+
+/************************
+Form Styling
+*************************/
+
+textarea {
+	outline: none;
+	overflow: auto;
+	resize: none;
+}
 
