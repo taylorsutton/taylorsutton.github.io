@@ -27,10 +27,10 @@ header
 *************************/
 	nav {
 	background: none;
-	float: right;
+	float: center;
 	font-size: 1.125em;
-	margin-right: 5%;
-	text-align: right;
+/*	margin-right: 5%;*/
+	text-align: center;
 	width: 45%;
 }
 

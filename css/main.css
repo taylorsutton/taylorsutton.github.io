@@ -67,6 +67,17 @@ font-weight: normal;
 
 }
 
+h5 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	margin: 15px 0;
+	font-size: 4em;
+	font-weight: normal;
+	line-height: 0.8em;
+	padding: 10px 0;
+	color: black;
+	text-align: center;
+}
+
 /************************
 NAVIGATION
 *************************/
@@ -75,7 +86,7 @@ nav {
 
 	text-align: center;
 	padding: 10px 0;
-	margin: 20px 0 0;
+	margin: 0 auto;
 }
 
 nav ul {
@@ -94,6 +105,8 @@ nav a {
 	font-weight: 600;
 	padding: 15px 10px;
 }
+
+
 
 
 /************************
@@ -177,7 +190,9 @@ h3 {
 	font-size: 3em;
 	font-family: 'Pathway Gothic One', sans-serif;
 	color:white;
-}
+} 
+
+
 
 
 
