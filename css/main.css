@@ -43,9 +43,11 @@ header {
 	width: 100%;
 }
 
-#logo {
-	text-align: center;
+#pixelogo {
+	
 	margin-top: 15px;
+
+
 }
 
 h1 {
@@ -128,6 +130,8 @@ Page: About
 	border-radius: 100%;
 }
 
+
+
 /************************
 Page: Portfolio 
 *************************/
@@ -204,7 +208,7 @@ nav a.selected {
 }
 
 
-}
+
 
 
 

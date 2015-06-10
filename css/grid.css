@@ -21,6 +21,37 @@ img {
 /* Media Queries
 ================================ */
 
+@media screen and (min-width: 660px) {
+/************************
+header
+*************************/
+	nav {
+	background: none;
+	float: right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
+}
+
+	
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2	{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+
+}
+
 @media (min-width: 1px) and (max-width: 767px)  {
 	.grid-container > [class^="grid-"] {
 		padding-top: 5px;
@@ -31,7 +62,15 @@ img {
 	}
 }
 
-@media (min-width: 768px) {
+#pixelogo {
+	width: 100%
+}
+
+@media (min-width: 800px) {
+
+	#pixelogo {
+		width:50%;
+	}
 
 	/* Columns
 	================================ */
