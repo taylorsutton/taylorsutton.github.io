@@ -8,7 +8,7 @@
 <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
-	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 </head>
@@ -29,43 +29,40 @@
 		</header>
 
 
-<div class="cont"> 
-
-		<h1 class="contact">Want to send me a message?</h1>
 
 
-
-
-	<form method="POST" action="//formspree.io/taylor.anthony.sutton@gmail.com"
-      method="POST">
-        
+<form action="//formspree.io/taylor.anthony.sutton@gmail.com" method="POST" class="pixel-green">
+    <h1>Contact Form 
+        <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <label>
+        <span>Your Name :</span>
+        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+    </label>
     
-      
-		      <label class="formname"><span>Your Name</span>
-		   			 <input type="text" name="name"></label>
-            
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+    <label>
+        <span>Message :</span>
+        <textarea id="message" type="submit" placeholder="Your Message to Us"></textarea>
+  
         
-		    
-        
-		    <label class="formname"><span>Your Email</span>
-		  			 <input type="email" name="_replyto"></label>
-		     
-		     <label class= "formname"><span>Your Message</span>
-		    		 <textarea name="message"></textarea>
-                 
-                
-             
+         <input class= "formname" type="hidden" name="_next" value="//taylorsutton.github.io/thanks.html" />
+      <input  class= "formname2" type="submit" value="Send">
+   
            
-		    	
-		   <input class= "formname" type="hidden" name="_next" value="//taylorsutton.github.io/thanks.html" />
 
-		  
-		    <input  class= "formname2" type="submit" value="Send"></label>
-             
-             
-		   
-		
+          
+            
+    </label>    
 </form>
+
+
+
+
  </div>
 
 
