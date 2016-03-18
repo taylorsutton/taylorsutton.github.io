@@ -30,6 +30,13 @@ h3 {
 	margin: 0 0 1em 0;
 }
 
+.cont {
+  text-align: center;
+}
+
+.contact {
+    padding-bottom: 1.1em; 
+}
 
 /************************
 HEADING
@@ -155,7 +162,20 @@ Page: Portfolio
 Page: Contact
 *************************/
 
+.formname {
+    margin: auto;
+    width: 15em;
+    padding-top: 1em;
+     padding-bottom: 1em;
+    display: block;
+    
+}
 
+.formname2 {
+    margin: auto;
+    display: inline-block;
+    
+}
 
 /************************
 colors from style tile
@@ -204,7 +224,7 @@ h3 {
 Interactive
 *************************/
 nav a:hover {
-	text-transform: uppercase;
+	
  -webkit-animation: callout .25s both;
   animation: callout .25s both;
 }
@@ -289,9 +309,30 @@ filter:alpha(opacity=60);
 Form Styling
 *************************/
 
-textarea {
-	outline: none;
-	overflow: auto;
-	resize: none;
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
 }
 
