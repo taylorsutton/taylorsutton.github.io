@@ -18,12 +18,12 @@
     display: block;
     margin: -30px -30px 10px -30px;
     color: #FFF;
-    background: #9DC45F;
+    background: #329832;
     text-shadow: 1px 1px 1px #949494;
     border-radius: 5px 5px 0px 0px;
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
-    border-bottom:1px solid #89AF4C;
+    border-bottom:1px solid #329832;
 
 }
 .pixel-green h1>span {
@@ -71,7 +71,7 @@
     height:30px;
 }
 .pixel-green .button {
-    background-color: #9DC45F;
+    background-color: #329832;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-border-radius: 5px;
