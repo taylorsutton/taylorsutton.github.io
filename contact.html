@@ -1,4 +1,4 @@
-<!Doctype html> 
+<!Doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -9,72 +9,83 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 	<body>
-		<header>		
-			<a href="index.html" id="pixelogo">
-			<h5>Taylor Sutton</h5>
-			</a>
-			<nav>
-				<ul>
-					<li> <a href="index.html">Index</a></li>
-					<li> <a href="portfolio.html">Portfolio</a></li>
-					<li> <a href="about.html">Bio/Resume</a></li>
-					<li> <a href="contact.html" class="selected">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
+<div class="grid-container">
+
+<div class="grid-12">
+	<header>
+		<a href="index.html" id="pixelogo">
+		<h5>Taylor Sutton</h5>
+		</a>
+		<nav>
+			<ul>
+				<li> <a href="index.html">Portfolio</a></li>
+				<li> <a href="about.html">Bio/Resume</a></li>
+				<li> <a href="contact.html" class="selected">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+</div>
+
+
+
+<div class="grid-12" style="
+    margin: 2em;
+">
+
+	<form action="//formspree.io/taylor.anthony.sutton@gmail.com" method="POST" class="pixel-green">
+		<h1>Contact Taylor!
+				<span>Let's get in touch. I usually respond in 24 hours!</span>
+		</h1>
+		<label>
+				<span>Your Name :</span>
+				<input id="name" type="text" name="name" placeholder="Your Full Name" />
+		</label>
+
+		<label>
+				<span>Your Email :</span>
+				<input id="email" type="email" name="email" placeholder="Valid Email Address" />
+		</label>
+
+		<label>
+				<span>Message :</span>
+				<textarea id="message" type="submit" placeholder="Your Message to Taylor"></textarea>
+
+
+				 <input class= "formname" type="hidden" name="_next" value="//taylorsutton.github.io/thanks.html" />
+			<input  class= "button" type="submit" value="Send">
 
 
 
 
-<form action="//formspree.io/taylor.anthony.sutton@gmail.com" method="POST" class="pixel-green">
-    <h1>Contact Taylor!
-        <span>Let's get in touch. I usually respond in 24 hours!</span>
-    </h1>
-    <label>
-        <span>Your Name :</span>
-        <input id="name" type="text" name="name" placeholder="Your Full Name" />
-    </label>
-    
-    <label>
-        <span>Your Email :</span>
-        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
-    </label>
-    
-    <label>
-        <span>Message :</span>
-        <textarea id="message" type="submit" placeholder="Your Message to Taylor"></textarea>
-  
-        
-         <input class= "formname" type="hidden" name="_next" value="//taylorsutton.github.io/thanks.html" />
-      <input  class= "button" type="submit" value="Send">
-   
-           
 
-          
-            
-    </label>    
-</form>
+		</label>
+	</form>
+
+</div>
 
 
 
 
- </div>
 
 
-		<footer>
-			<p>&copy; 2016 Taylor Sutton</p>
-		</footer>
+
+	<footer>
+		<p>&copy; 2016 Taylor Sutton</p>
+	</footer>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-   
-	</body>
-	
+
+
+
+</div>	</body>
+
 
 
 </html>
-
